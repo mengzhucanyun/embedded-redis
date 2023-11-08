@@ -27,10 +27,12 @@ abstract class AbstractRedisInstance implements Redis {
         this.port = port;
     }
 
+    @Override
     public boolean isActive() {
         return active;
     }
 
+    @Override
     public synchronized void start() throws EmbeddedRedisException {
         if (active) {
             throw new EmbeddedRedisException("This redis server instance is already running...");

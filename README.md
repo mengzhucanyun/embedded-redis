@@ -5,22 +5,22 @@ Redis embedded server for Java integration testing
 
 Fork Notes
 ==============
-This repository clones from [kstyrc](https://github.com/kstyrc/embedded-redis) original repository.
+This repository clones from [ozimov](https://github.com/ozimov/embedded-redis) original repository.
 The aim is to release some long waiting fixes.
 
 
-**Source Website:** *[github.com/ozimov/embedded-redis](http://github.com/ozimov/embedded-redis/)*<br />
+**Source Website:** *[github.com/mengzhucanyun/embedded-redis](http://github.com/mengzhucanyun/embedded-redis/)*<br />
 
 **Latest Release:** *0.7.3* <br />
-**Latest Artifact:** *it.ozimov:embedded-redis* <br />
+**Latest Artifact:** *it.mengzhucanyun:embedded-redis* <br />
 **Continuous Integration:** <br />
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/it.ozimov/embedded-redis/badge.svg)](https://maven-badges.herokuapp.com/maven-central/it.ozimov/embedded-redis)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/it.mengzhucanyun/embedded-redis/badge.svg)](https://maven-badges.herokuapp.com/maven-central/it.mengzhucanyun/embedded-redis)
 <br />
-[![Build Status](https://travis-ci.org/ozimov/embedded-redis.svg?branch=master)](https://travis-ci.org/ozimov/embedded-redis)
-[![codecov.io](https://codecov.io/github/ozimov/embedded-redis/coverage.svg?branch=master)](https://codecov.io/github/ozimov/embedded-redis?branch=master)
+[![Build Status](https://travis-ci.org/mengzhucanyun/embedded-redis.svg?branch=master)](https://travis-ci.org/mengzhucanyun/embedded-redis)
+[![codecov.io](https://codecov.io/github/mengzhucanyun/embedded-redis/coverage.svg?branch=master)](https://codecov.io/github/mengzhucanyun/embedded-redis?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/7a4364b93df6473fb18a597e900edceb)](https://www.codacy.com/app/roberto-trunfio/embedded-redis)
 
-![codecov.io](https://codecov.io/github/ozimov/embedded-redis/branch.svg?branch=master)
+![codecov.io](https://codecov.io/github/mengzhucanyun/embedded-redis/branch.svg?branch=master)
 
 Maven dependency
 ==============
@@ -28,7 +28,7 @@ Maven dependency
 Maven Central:
 ```xml
 <dependency>
-  <groupId>it.ozimov</groupId>
+  <groupId>it.mengzhucanyun</groupId>
   <artifactId>embedded-redis</artifactId>
   <version>0.7.3</version>
 </dependency>
@@ -169,7 +169,8 @@ Licensed under the Apache License, Version 2.0
 
 Contributors
 ==============
- * Krzysztof Styrc ([@kstyrc](http://github.com/kstyrc))
+ * mengzhucanyun ([@mengzhucanyun](http://github.com/mengzhucanyun))
+ * Krzysztof Styrc ([@ozimov](http://github.com/ozimov))
  * Piotr Turek ([@turu](http://github.com/turu))
  * anthonyu ([@anthonyu](http://github.com/anthonyu))
  * Artem Orobets ([@enisher](http://github.com/enisher))
@@ -179,6 +180,8 @@ Contributors
 
 Changelog
 ==============
+### 0.7.5
+* Support Mac OS 14
 
 ### 0.6
  * Support JDK 6 +
