@@ -11,7 +11,7 @@ The aim is to release some long waiting fixes.
 
 **Source Website:** *[github.com/mengzhucanyun/embedded-redis](http://github.com/mengzhucanyun/embedded-redis/)*<br />
 
-**Latest Release:** *0.7.3* <br />
+**Latest Release:** *0.7.6* <br />
 **Latest Artifact:** *it.mengzhucanyun:embedded-redis* <br />
 **Continuous Integration:** <br />
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/it.mengzhucanyun/embedded-redis/badge.svg)](https://maven-badges.herokuapp.com/maven-central/it.mengzhucanyun/embedded-redis)
@@ -21,18 +21,6 @@ The aim is to release some long waiting fixes.
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/7a4364b93df6473fb18a597e900edceb)](https://www.codacy.com/app/roberto-trunfio/embedded-redis)
 
 ![codecov.io](https://codecov.io/github/mengzhucanyun/embedded-redis/branch.svg?branch=master)
-
-Maven dependency
-==============
-
-Maven Central:
-```xml
-<dependency>
-  <groupId>it.mengzhucanyun</groupId>
-  <artifactId>embedded-redis</artifactId>
-  <version>0.7.3</version>
-</dependency>
-```
 
 Usage
 ==============
@@ -180,7 +168,7 @@ Contributors
 
 Changelog
 ==============
-### 0.7.5
+### 0.7.6
 * Support Mac OS 14
 
 ### 0.6
